@@ -4,7 +4,7 @@ import { MdOutlinePhoneAndroid, MdMail, MdLocationPin } from "react-icons/md";
 const Second = () => {
   return (
     <div className="text-black bg-white font-Inter flex flex-col items-center justify-center py-5">
-      <div className="w-[95%] mb-12 lg:w-[85%]">
+      <div className="w-[95%] mb-12 lg:w-[80%]">
         <div>
           <div className="text-2xl md:text-3xl mb-8 font-medium text-center lg:text-left">
             Head Office
