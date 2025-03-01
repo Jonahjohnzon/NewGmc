@@ -17,7 +17,7 @@ const Menu = ({setIsMenuOpen}) => {
       }
 
   return (
-    <div className=' absolute  top-0 right-0 bg-blue-950 w-full h-[100vh]'>
+    <div className=' absolute text-lg  top-0 right-0 bg-blue-950 w-full h-[100vh]'>
         <div className=' w-full flex justify-end  px-5 pt-5'>
             <div onClick={Close} className=' text-3xl'><ImCancelCircle/></div>
         </div>

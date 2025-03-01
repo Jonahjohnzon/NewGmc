@@ -33,9 +33,9 @@ export default function Top() {
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Content */}
-      <div className="relative  flex justify-center md:justify-start text-center md:text-start z-10 w-full px-5 sm:px-10 lg:px-40 py-32 sm:py-40">
+      <div className="relative  flex justify-center min-h-screen md:justify-start text-center md:text-start z-10 w-full px-5 sm:px-10 lg:px-40 py-32 sm:py-40">
         <div className=" sm:w-[90%] lg:w-[70%] xl:w-[60%]">
-          <h1 className=" text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-semibold mb-2">We Are</h1>
+          <h1 className=" text-2xl sm:text-4xl md:text-5xl 2xl:text-6xl font-bold sm:font-semibold mb-2">We Are</h1>
           <h1 className=" text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl font-bold mb-7 text-blue-400">
             GMC SERVICES LIMITED
           </h1>

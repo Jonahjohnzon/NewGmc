@@ -3,7 +3,7 @@ import React from 'react'
 const Mission = () => {
   return (
     <div className=' flex justify-between   '>
-         <div className='bg-blue-950 text-center md:text-start py-10 w-full pl-5 sm:pl-10 lg:pl-20 pr-5 sm:pr-10'>
+         <div className='bg-blue-950 text-center md:text-start py-10 w-full pl-3 sm:pl-10 lg:pl-20 pr-3 sm:pr-10'>
             <div className=' text-lg'>
                 <h1 className=' text-2xl lg:text-3xl font-semibold mb-3'>GMC  MISSION STATEMENTS</h1>
                 <p className=' mb-3'>We focuses on providing a high level of protection and safety to our clients by delivering reliable, professional se curity services through a well-trained workforce and advanced technology, prioritizing client needs and maintaining the highest ethical standards. </p>
