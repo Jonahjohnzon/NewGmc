@@ -6,7 +6,7 @@ const Aboutinfo = [
     id: 1,
     src: "/pic1.jpg",
     text: `
-      <p>We are security consultants; we make sure you get the best officers to manage your security challenges.</p>
+      <p>We are security consultants, we make sure you get the best officers to manage your security challenges.</p>
       <p>The protection of your home, offices, and business assets is the keystone to your peace of mind.</p>
       <p>G-MC Security offers a wide range of permanent security solutions, including long-term security guard placement to help combat security issues such as theft, vandalism, and trespassing.</p>`
   },

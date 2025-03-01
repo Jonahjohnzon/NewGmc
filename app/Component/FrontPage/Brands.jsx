@@ -9,7 +9,7 @@ const Brands = () => {
             src:'/Brand/micro.jpg'
         },
         {id:3,
-            src:'/Brand/trans.jpg'
+            src:'/Brand/trans.png'
         },
         {
             id:4,
