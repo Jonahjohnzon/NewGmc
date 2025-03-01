@@ -25,7 +25,7 @@ const Top = ({Title}) => {
   };
 
   const Back =() =>{
-    router.back()
+    router.push('/')
   }
   return (
     <div className="  w-full text-black  font-Inter relative overflow-hidden">
