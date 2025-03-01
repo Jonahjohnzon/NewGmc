@@ -77,9 +77,9 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="md:hidden">
+        <div className="">
           <MdOutlineMenu 
-            className="text-white text-4xl cursor-pointer" 
+            className="text-white text-4xl cursor-pointer md:hidden" 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           />
         </div>
