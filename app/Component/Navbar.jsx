@@ -56,10 +56,10 @@ export default function Navbar() {
                 transition={{ duration: 0.3, ease: "easeInOut" }}
                 className="absolute overflow-hidden bg-gray-800 rounded-sm shadow-lg p-1"
               >
-                <li className="cursor-pointer hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`/employmentform`)}>
+                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`/employmentform`)}>
                   Employment Form
                 </li>
-                <li className="cursor-pointer hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`/guarantorform`)}>
+                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`/guarantorform`)}>
                   Guarantor Form
                 </li>
               </motion.ul>

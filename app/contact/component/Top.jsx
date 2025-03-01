@@ -42,10 +42,10 @@ const Top = ({Title}) => {
           className="flex justify-center  w-[90%] xl:w-[60%] items-center"
         >
           <div className=" py-10 flex  flex-col items-center">
-            <div className=" text-3xl sm:text-6xl font-semibold mb-2 whitespace-nowrap">
+            <div className=" text-3xl sm:text-6xl font-medium mb-2 whitespace-nowrap">
               {Title}
             </div>
-            <div className="group flex items-center text-sm sm:text-base font-semibold">
+            <div className="group flex items-center text-sm sm:text-base font-medium">
             
                 <div className=" mr-2  hover:scale-110 transition-all ease-in-out duration-300 cursor-pointer" onClick={Back}>
                   HOME

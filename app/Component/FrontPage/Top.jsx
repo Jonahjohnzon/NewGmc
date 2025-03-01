@@ -35,14 +35,14 @@ export default function Top() {
       {/* Content */}
       <div className="relative flex justify-center md:justify-start text-center md:text-start z-10 w-full px-10 lg:px-40 py-32 sm:py-40">
         <div className=" sm:w-[90%] lg:w-[70%] xl:w-1/2">
-          <h1 className=" text-xl sm:text-4xl md:text-5xl 2xl:text-6xl font-bold mb-2">We Are</h1>
+          <h1 className=" text-xl sm:text-4xl md:text-5xl 2xl:text-6xl font-semibold mb-2">We Are</h1>
           <h1 className=" text-3xl sm:text-5xl md:text-6xl 2xl:text-7xl font-bold mb-7 text-blue-400">
             G-MERCYCROWN SERVICES LIMITED
           </h1>
           <h2 className=" text-xl sm:text-4xl 2xl:text-6xl font-semibold py-4 border-y-blue-500 border-y-[4px] mb-7">
             #1 Security Servicing
           </h2>
-          <p className="text-base md:text-lg 2xl:text-xl font-semibold backdrop-blur-md">
+          <p className="text-base md:text-lg 2xl:text-xl font-medium backdrop-blur-md">
             We are a professional security servicing company providing quality
             and innovative all-round security services to the satisfaction of
             our clients whilst promoting employees' self-actualization and

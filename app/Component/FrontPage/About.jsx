@@ -47,7 +47,7 @@ const About = () => {
 
   return (
     <div className='flex justify-center' >
-      <div className='text-black font-semibold w-[90%] lg:w-[80%]'>
+      <div className='text-black font-medium w-[90%] lg:w-[80%]'>
         {Aboutinfo.map((data) => (
           <div key={data.id} className={`flex w-full mb-10 ${data.id === 2  || data.id === 4 ? "flex-col md:flex-row-reverse" : " flex-col md:flex-row"}`}>
             <section style={{ backgroundImage: `url(${data.src})` }} className='w-full h-60 sm:h-72 bg-cover'></section>
