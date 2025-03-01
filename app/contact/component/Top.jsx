@@ -32,7 +32,7 @@ const Top = ({Title}) => {
       <div className=" absolute z-10 w-full h-full  bg-cover bg-no-repeat bg-center" style={{backgroundImage:`url("/list/bg3.png")`}}></div>
 
       <div className=" flex justify-center bg-black/80 text-white pt-10 pb-10 relative z-20">
-      <div className=" top-10 left-10 absolute">
+      <div className=" top-5 sm:top-10 left-5 sm:left-10 absolute">
       <IoMdArrowRoundBack className=" text-2xl sm:text-4xl hover:scale-110 transition-all ease-in-out duration-300 cursor-pointer" onClick={Back}/>
       </div>
         <motion.div

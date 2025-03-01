@@ -21,7 +21,7 @@ const Second = () => {
             {text.map((data)=>{
                 return(
                     <div key={data.id} className=' mb-5 sm:mb-0 w-full sm:w-40 md:w-52 lg:w-60 h-28 md:h-36 lg:h-40 bg-blue-900 text-center flex justify-center items-center'>
-                        <p className=' font-medium sm:text-xl lg:text-2xl'>{data.msg}</p>
+                        <p className=' font-semibold sm:font-medium sm:text-xl lg:text-2xl'>{data.msg}</p>
                     </div>
                 )
             })}

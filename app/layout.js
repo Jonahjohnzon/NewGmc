@@ -28,7 +28,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className=" scrollbar-thin scrollbar-track-black scrollbar-thumb-blue-900" suppressHydrationWarning>
+    <html lang="en" className="text-white scrollbar-thin scrollbar-track-black scrollbar-thumb-blue-900" suppressHydrationWarning>
       <Body>{children}</Body>
     </html>
   );
