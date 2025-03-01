@@ -42,7 +42,7 @@ export default function Top() {
           <h2 className=" text-xl sm:text-4xl 2xl:text-6xl font-semibold py-4 border-y-blue-500 border-y-[4px] mb-7">
             #1 Security Servicing
           </h2>
-          <p className="sm:text-base md:text-lg 2xl:text-xl font-semibold backdrop-blur-md">
+          <p className="text-base md:text-lg 2xl:text-xl font-semibold backdrop-blur-md">
             We are a professional security servicing company providing quality
             and innovative all-round security services to the satisfaction of
             our clients whilst promoting employees' self-actualization and
