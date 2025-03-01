@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { useRouter } from 'nextjs-toploader/app';
 
@@ -20,12 +21,12 @@ const Footer = () => {
             <div>
                 <h1 className='  sm:text-xl font-semibold mb-3 whitespace-nowrap  '>Quick Link</h1>
                 <div className='text-sm sm:text-base '>
-                <p className=' flex flex-col w-1/2 cursor-pointer hover:scale-105' onClick={()=>router.push('/')}>Home</p>
-                <p className=' flex flex-col w-1/2 cursor-pointer hover:scale-105' onClick={()=>router.push('/contact')}>Contact Us</p>
+                <p className=' flex flex-col w-1/2 cursor-pointer hover:scale-105 whitespace-nowrap' onClick={()=>router.push('/')}>Home</p>
+                <p className=' flex flex-col w-1/2 cursor-pointer hover:scale-105 whitespace-nowrap' onClick={()=>router.push('/contact')}>Contact Us</p>
                 </div>
             </div>
         </div>
-        <div className=' w-full flex justify-center bg-blue-950 py-2 '><div className=' w-[90%] xl:w-2/3 flex items-center text-sm'><p className=' mr-5'>&copy; Copyright</p><p>GMC</p></div></div>
+        <div className=' w-full flex justify-center bg-blue-950 py-2 '><div className=' w-[90%] xl:w-2/3 flex items-center text-sm'><p className=' mr-5'>&copy; Copyright</p><p>GMCSERVICES</p></div></div>
     </div>
   )
 }
