@@ -40,7 +40,7 @@ export default function Top() {
             GMC SERVICES LIMITED
           </h1>
           <h2 className=" text-xl text-center sm:text-start sm:text-4xl 2xl:text-6xl font-semibold py-4 border-y-blue-500 border-y-[4px] mb-7">
-            #G-MercyCrown Security Servicing
+            #GMC Security Servicing
           </h2>
           <p className="text-lg 2xl:text-xl px-2 font-medium backdrop-blur-md">
             We are a professional security servicing company providing quality
