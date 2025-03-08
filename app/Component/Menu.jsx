@@ -22,40 +22,40 @@ const Menu = ({setIsMenuOpen}) => {
             <div onClick={Close} className=' text-3xl'><ImCancelCircle/></div>
         </div>
             <ul className="flex flex-col w-full font-semibold justify-between  py-5 pl-4 ">
-            <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{
+            <li className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{
                 setIsMenuOpen(false) 
                 scrollToSection('home')}}>
               Home
             </li>
-            <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
+            <li className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
                 setIsMenuOpen(false)
                 router.push(`https://forms.gle/86JYxx3NqVEYXsQ66`)}}>
                 Employment Form
             </li>
-            <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
+            <li className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
                 setIsMenuOpen(false)
                 router.push(`https://forms.gle/jtggJSAxqM1SkVUx9`)}}>
                 Guarantor Form
             </li>
-            <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
+            <li className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
                 setIsMenuOpen(false)
                 router.push(`https://forms.gle/zz6oLDHzgDxAapBG9`)}}>
                  Company Request
             </li>
-            <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
+            <li className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
                 setIsMenuOpen(false)
                 router.push(`https://forms.gle/6QRdcJvteWPs6GCr9`)}}>
                  PGC Guards Request
             </li>
             <li 
-              className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out"
+              className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out"
               onClick={() =>{
                 setIsMenuOpen(false) 
                 scrollToSection('about')}}
             >
               About Us
             </li>
-            <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={()=>{
+            <li className="cursor-pointer mb-4 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={()=>{
               setIsMenuOpen(false)
               router.push('/contact')
             }}>
