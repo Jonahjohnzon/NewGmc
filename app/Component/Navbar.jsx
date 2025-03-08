@@ -69,7 +69,7 @@ export default function Navbar() {
                 Company Request
                 </li>
                 <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`https://forms.gle/6QRdcJvteWPs6GCr9`)}>
-                PGC GUARDS REQUEST
+                PGC Guards Request
                 </li>
               </motion.ul>
             </li>

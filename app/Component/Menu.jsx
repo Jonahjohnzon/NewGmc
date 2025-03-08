@@ -45,7 +45,7 @@ const Menu = ({setIsMenuOpen}) => {
             <li className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out" onClick={() =>{ 
                 setIsMenuOpen(false)
                 router.push(`https://forms.gle/6QRdcJvteWPs6GCr9`)}}>
-                 PGC GUARDS REQUEST
+                 PGC Guards Request
             </li>
             <li 
               className="cursor-pointer mb-3 hover:scale-105 hover:text-blue-500 transition-all duration-300 ease-in-out"
