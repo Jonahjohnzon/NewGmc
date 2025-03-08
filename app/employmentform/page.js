@@ -36,9 +36,30 @@ const ApplicationForm = () => {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = (data) => {
-    console.log("Form Submitted", data);
+  const onSubmit = async (data) => {
+    try {
+      const formData = new FormData();
+  
+      Object.entries(data).forEach(([key, value]) => {
+        if (key === "passportPhoto") {
+          formData.append(key, value[0]);
+        } else {
+          formData.append(key, value);
+        }
+      });
+      
+      const result = await fetch("/api/employment", {
+        method: "POST",
+        body: formData, 
+      });
+  
+      const res = await result.json();
+      console.log(res);
+    } catch (err) {
+      console.log(err);
+    }
   };
+  
 
   return (
     <div>
@@ -95,16 +116,19 @@ const ApplicationForm = () => {
             <div>
               <label className="block font-semibold">PreviousOffice:</label>
               <input {...register("previousOffice")} type="text" className="w-full border p-2 rounded-lg" />
+              <p className="text-red-500 text-sm">{errors.previousOffice?.message}</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="block font-semibold">NextOfKinName:</label>
               <input {...register("nextOfKinName")} type="text" className="w-full border p-2 rounded-lg" />
+              <p className="text-red-500 text-sm">{errors.nextOfKinName?.message}</p>
             </div>
             <div>
               <label className="block font-semibold">NextOfKinPhone:</label>
               <input {...register("nextOfKinPhone")} type="text" className="w-full border p-2 rounded-lg" />
+              <p className="text-red-500 text-sm">{errors.nextOfKinPhone?.message}</p>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">

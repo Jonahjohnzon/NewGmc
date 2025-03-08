@@ -55,15 +55,21 @@ export default function Navbar() {
               Application
               <motion.ul
                 initial={{ height: 0, opacity: 0 }}
-                animate={{ height: isDropdownOpen ? "6rem" : 0, opacity: isDropdownOpen ? 1 : 0 }}
+                animate={{ height: isDropdownOpen ? "11rem" : 0, opacity: isDropdownOpen ? 1 : 0 }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}
                 className="absolute overflow-hidden bg-gray-800 rounded-sm shadow-lg p-1"
               >
-                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`/employmentform`)}>
+                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`https://forms.gle/86JYxx3NqVEYXsQ66`)}>
                   Employment Form
                 </li>
-                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`/guarantorform`)}>
+                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`https://forms.gle/jtggJSAxqM1SkVUx9`)}>
                   Guarantor Form
+                </li>
+                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`https://forms.gle/zz6oLDHzgDxAapBG9`)}>
+                Company Request
+                </li>
+                <li className="cursor-pointer font-medium hover:text-blue-500 whitespace-nowrap text-base p-2 text-white" onClick={() => router.push(`https://forms.gle/6QRdcJvteWPs6GCr9`)}>
+                PGC GUARDS REQUEST
                 </li>
               </motion.ul>
             </li>
