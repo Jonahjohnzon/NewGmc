@@ -20,7 +20,7 @@ const Body = ({children}) => {
         <link rel="icon" href="/LOGO.jpg" sizes="any" />
             <NextTopLoader 
        color="#fffd00"
-       initialPosition={0.08}
+       initialPosition={0.08} 
        crawlSpeed={200}
        height={3}
        crawl={true}
