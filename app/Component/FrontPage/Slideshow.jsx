@@ -42,7 +42,7 @@ export default function Slideshow() {
   }, []);
 
   return (
-    <div className=" flex flex-col items-center rounded-md w-full bg-blue-950 mb-10 max-w-3xl mx-auto p-4 py-8">
+    <div className=" flex flex-col items-center sm:rounded-md w-full bg-blue-950 mb-10 max-w-3xl mx-auto p-4 py-8">
       <div className="flex justify-between items-center  sm:h-40 md:h-60 rounded-lg overflow-hidden">
       <button
           onClick={prevSlide}
