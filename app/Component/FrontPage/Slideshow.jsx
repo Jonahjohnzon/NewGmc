@@ -50,7 +50,7 @@ export default function Slideshow() {
         >
           <FaChevronLeft size={20} />
         </button>
-        <div className="  md:min-w-96 h-64 mx-10 ">
+        <div className="  md:min-w-96 h-44 sm:h-64 mx-10 ">
         <img
           src={slides[current].src}
           alt={`Slide ${current + 1}`}
