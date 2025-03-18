@@ -10,7 +10,7 @@ import { FaAngleDoubleLeft, FaTimesCircle } from "react-icons/fa";
 const Scroll = () => {
   const data = [
     { image: "/pic6.jpg" },
-    { image: "/pic7.jpg" },
+    { image: "/pic71.jpg" },
     { image: "/pic9.jpg" },
     { image: "/pic1.jpg" },
     { image: "/pic2.jpg" },
@@ -64,7 +64,7 @@ const Scroll = () => {
                   <img
                     src={e.image}
                     loading="lazy"
-                    className="rounded-md h-80 w-96 object-cover duration-300 cursor-pointer transition-transform hover:scale-[98%]"
+                    className="rounded-md h-80 w-96 object-cover object-top duration-300 cursor-pointer transition-transform hover:scale-[98%]"
                     onClick={() => handleImageClick(e.image)}
                   />
                 </div>

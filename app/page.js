@@ -8,6 +8,7 @@ import Brands from "./Component/FrontPage/Brands";
 import Footer from "./Component/FrontPage/Footer";
 import Mission from "./Component/FrontPage/Mission";
 import Vision from "./Component/FrontPage/Vision";
+import Slideshow from "./Component/FrontPage/Slideshow";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
      <div className=" bg-blue-50">
      <Second/>
      <About/>
+     <Slideshow/>
      <Mission/>
      <Vision/>
      <Scroll/>
