@@ -64,7 +64,7 @@ export default function Slideshow() {
           <FaChevronRight size={20} />
         </button>
       </div>
-      <div className="mt-4 text-center sm:text-base md:text-xl text-white">
+      <div className="mt-4 text-center sm:text-lg md:text-xl text-white">
         <p>{slides[current].text}</p>
       </div>
     </div>
